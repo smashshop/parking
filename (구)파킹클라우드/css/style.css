@@ -1,0 +1,35 @@
+@charset "utf-8";
+*{margin : 0 auto; padding : 0; list-style : none; font-family : "나눔고딕"; box-sizing : border-box; font-size : 15px;}
+a{color : inherit; text-decoration : none;}
+header{position: relative;}
+.visi{position : absolute; z-index: 9999; height : 70px; width : 100%; background-color :rgba(051, 051, 051, 0.5); border :1px solid black; top : 0px;}
+
+.wrap{width : 1105px; padding-top : 13px;}
+.logo{float : left;}
+
+nav{float : right; margin-right : 20px;}
+.menu>li{color : white; float : left; width : 108px; text-align: center; padding : 5px; margin-top : 7px;}
+.menu>li:hover{color : aqua; cursor:default}
+.submenu{display: none; background-color :rgba(051, 051, 051, 0.5); color: white;}
+
+
+.submenu{margin-top : 23px; width : 108px; text-align : center;}
+.submenu>li{border:1px solid black; height : 35px; padding: 10px;
+padding-bottom: 45px;}
+.submenu>li:hover{color : aqua; border-color : black}
+
+.main{width : 100%; height : 620px; background-color: black; overflow: hidden; float: left;}
+.slider{position : relative; left;}
+.slider>img{position : absolute; transition : 0.7s;}
+h1{font-size: 25px; color : #666;}
+.clear{clear: both;}
+
+.all{width : 100%; overflow:hidden;}
+.allh{width : 1110px;}
+.table1{margin: 25px 0px;}
+.table1 a{padding-right: 22px;}
+
+.allh table{width : 1110px; border-collapse: collapse; margin-top : 40px;}
+.allh table td{width : 555px; padding : 35px; text-align : left; border-top : 1px solid lightgray;}
+table td a{color : skyblue;}
+h2{font-size : 20px; color : #666;}
